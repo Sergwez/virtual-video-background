@@ -1,6 +1,6 @@
 {
-    "name": "@wezerr/virtual-video-background",
-    "version": "0.0.1",
+    "name": "@wezer/virtual-video-background",
+    "version": "0.0.2",
     "private": false,
     "author": "wezer",
     "repository": {
@@ -8,10 +8,19 @@
         "url": "https://github.com/Sergwez/virtual-video-background.git",
         "directory": "/"
       },
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
     "dependencies": {
       "@mediapipe/selfie_segmentation": "^0.1.1675465747"
     },
-    "main": "virtual-bg.min.js",
-    "files": ["node_modules"]
+    "devDependencies": {
+      "vite": "^5.0.0"
+    },
+    "files": ["dist"],
+    "main": "./dist/virtual-bg.umd.js",
+    "module": "./dist/virtual-bg.es.js"
 }
   
