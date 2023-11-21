@@ -1,7 +1,7 @@
 {
     "name": "@wezerr/virtual-video-background",
     "version": "0.0.1",
-    "private": true,
+    "private": false,
     "author": "wezer",
     "repository": {
         "type": "git",
