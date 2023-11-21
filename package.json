@@ -1,0 +1,17 @@
+{
+    "name": "@wezerr/virtual-video-background",
+    "version": "0.0.1",
+    "private": true,
+    "author": "wezer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Sergwez/virtual-video-background.git",
+        "directory": "/"
+      },
+    "dependencies": {
+      "@mediapipe/selfie_segmentation": "^0.1.1675465747"
+    },
+    "main": "virtual-bg.min.js",
+    "files": ["node_modules"]
+}
+  
